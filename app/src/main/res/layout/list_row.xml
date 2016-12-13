@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingStart="0dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/list_item_deal_title"
+        android:id="@+id/listItemDealTitle"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="7dp"/>
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/list_item_deal_description"
+        android:id="@+id/listItemDealText"
+        android:layout_below="@+id/listItemDealTitle"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginStart="7dp"/>
+
+    <TextView
+        android:text="@string/list_item_deal_date_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/listItemDealDateCreated" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listItemDealDateCreated"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_check_circle_black_24dp"
+        android:tint="@color/completed_deal"
+        android:id="@+id/deal_completed_icon"
+        android:contentDescription="@string/deal_completed_image_content_description" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listItemDealDateCreated"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_close_black_24dp"
+        android:tint="@color/rejected_deal"
+        android:id="@+id/deal_incomplete_icon"
+        android:contentDescription="@string/deal_rejected_image_content_description" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listItemDealDateCreated"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_check_black_24dp"
+        android:tint="@color/accepted_deal"
+        android:id="@+id/deal_waiting_icon"
+        android:contentDescription="@string/deal_accepted_image_content_description" />
+</RelativeLayout>

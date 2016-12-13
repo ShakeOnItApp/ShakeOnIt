@@ -1,0 +1,7 @@
+#Sat Dec 03 22:51:04 CST 2016
+base.0=C\:\\Users\\Eli\\AndroidStudioProjects\\ShakeOnIt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_961d4af395237dc1e903b1c622dd3fab524d644f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Eli\\AndroidStudioProjects\\ShakeOnIt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_845d61f0e9b7090cc042333c8fa397f876622969\\classes.dex
+base.1=C\:\\Users\\Eli\\AndroidStudioProjects\\ShakeOnIt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_845d61f0e9b7090cc042333c8fa397f876622969
+file.0=C\:\\Users\\Eli\\AndroidStudioProjects\\ShakeOnIt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_961d4af395237dc1e903b1c622dd3fab524d644f\\classes.dex

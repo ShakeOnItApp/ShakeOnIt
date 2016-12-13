@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Eli\\AndroidStudioProjects\\ShakeOnIt\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Eli\\AndroidStudioProjects\\ShakeOnIt\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Eli\\AndroidStudioProjects\\ShakeOnIt\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_menu_black.png",
+        "source": "C:\\Users\\Eli\\AndroidStudioProjects\\ShakeOnIt\\app\\src\\main\\res\\mipmap-hdpi\\ic_menu_black.png"
+    }
+]

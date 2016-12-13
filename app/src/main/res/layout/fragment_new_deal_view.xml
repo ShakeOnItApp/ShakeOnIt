@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="12dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="#f9f9f9">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text=""
+        android:hint="@string/new_deal_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/newDealTitle"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newDealTitle"
+        android:inputType="text"
+        android:text=""
+        android:hint="@string/new_deal_text"
+        android:ems="10"
+        android:id="@+id/newDealText"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:textColor="@color/primary_text"/>
+
+
+    <!--<fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newDealTitle"
+        android:paddingBottom="13dp"
+        android:id="@+id/newDealMapFragment"/>
+        -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newDealText"
+        android:inputType="text"
+        android:text=""
+        android:hint="@string/new_deal_location"
+        android:ems="10"
+        android:id="@+id/newDealLocation"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:textColor="@color/primary_text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newDealLocation"
+        android:inputType="text"
+        android:text=""
+        android:hint="@string/new_deal_participants"
+        android:ems="10"
+        android:id="@+id/newDealParticipants"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:textColor="@color/primary_text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newDealParticipants"
+        android:inputType="text"
+        android:text=""
+        android:hint="@string/new_deal_terms"
+        android:ems="10"
+        android:id="@+id/newDealTerms"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:textColor="@color/primary_text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_new_deal"
+        android:layout_below="@+id/newDealTerms"
+        android:id="@+id/newDealSubmitButton"
+        android:textColor="@color/primary_text"/>
+
+</RelativeLayout>
